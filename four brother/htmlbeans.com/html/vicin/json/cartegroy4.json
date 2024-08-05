@@ -1,0 +1,37 @@
+{
+    "cartegroy1":[
+        {
+            "description":"Construction",
+            "images":"images/icon01.png",
+            "description1":"Work with your contractor to develop a realistic timeline that includes all phases of the renovation, from demolition to final touches"
+
+           
+        }
+    ],
+    "cartegroy2":[
+        {
+            "description":"Plumbing",
+            "images":"images/icon02.png",
+            "description1":"Look for licensed and insured plumbers with good reviews. Ask friends and family for recommendationsdemolition to final touches."
+
+
+
+           
+        }
+    ],
+    "cartegroy3":[
+        {
+           
+
+            "description":"Roofing",
+            "images":"images/icon03.png",
+            "description1":" Keep in touch with your contractor and plumber to ensure everyone is on the same page and any issues are addressed promptly with good reviews."
+
+            
+        }
+    ]
+   
+    
+ 
+ 
+}

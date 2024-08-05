@@ -1,0 +1,37 @@
+{
+    "cartegroy1":[
+        {
+            "description":"HOUSE BUILDING",
+            "images":"images/icon01.png",
+            "description1":"Use of environmentally friendly materials and energy-efficient designsto the creation and industry encompasses a wide range of aspects"
+
+           
+        }
+    ],
+    "cartegroy2":[
+        {
+            "description":"EXTERIOR DESIGN",
+           "images":"images/icon02.png",
+            "description1":"The construction industry encompasses a wide range of activities related to the creation and  aspects  might help you"
+
+
+
+           
+        }
+    ],
+    "cartegroy3":[
+        {
+           
+
+            "description":"BUILDING RENOVATION",
+           "images":"images/icon03.png",
+            "description1":"If you're looking for information about roofing services, here's a general overview "
+
+            
+        }
+    ]
+   
+    
+ 
+ 
+}

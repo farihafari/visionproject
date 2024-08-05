@@ -1,0 +1,41 @@
+{
+    "cartegroy1":[
+        {
+            "description":"Bernard Coliseum Renovation",
+            "images":"images/img49.jpg",
+            "datetime":"Posted 05.17.2024",
+             "description2":"Construction",
+            "description1":"The Bernard Coliseum is undergoing a significant renovation to modernize facilities, improve safety, and enhance the overall experience for visitors."
+          
+           
+        }
+    ],
+    "cartegroy2":[
+        {
+            "description":"Our Favorite home decor trends",
+            "images":"images/img50.jpg",
+            "datetime":"Posted 03.17.2023",
+            "description2":"Plumber",
+            "description1":"Revamping your home decor can breathe new life into your living space. Here are some of our favorite home decor trends that can inspire your next makeover:"
+
+
+
+           
+        }
+    ],
+    "cartegroy3":[
+        {
+           
+
+            "description":"Capitol Distribution Warehouse",
+            "images":"images/img51.jpg",
+            "datetime":"Posted 04.17.2023",
+            "description2":">Repair Roof",
+            "description1":"The Capitol Distribution Warehouse is undergoing a comprehensive renovation to improve efficiency, enhance safety, and modernize the facility to meet current industry standards."
+
+            
+        }
+    ]
+ 
+ 
+}

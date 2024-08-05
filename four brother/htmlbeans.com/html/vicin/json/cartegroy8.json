@@ -1,0 +1,45 @@
+{
+    "cartegroy1":[
+        {
+            "description":"Bernard Coliseum Renovation",
+            "images":"images/img27.jpg",
+            "description1":"The Bernard Coliseum is undergoing a significant renovation to modernize facilities, improve safety, and enhance the overall experience for visitors."
+
+           
+        }
+    ],
+    "cartegroy2":[
+        {
+            "description":"Our Favorite home decor trends",
+            "images":"images/img28.jpg",
+            "description1":"Revamping your home decor can breathe new life into your living space. Here are some of our favorite home decor trends that can inspire your next makeover:"
+
+
+
+           
+        }
+    ],
+    "cartegroy3":[
+        {
+           
+
+            "description":"Capitol Distribution Warehouse",
+            "images":"images/img29.jpg",
+            "description1":"The Capitol Distribution Warehouse is undergoing a comprehensive renovation to improve efficiency, enhance safety, and modernize the facility to meet current industry standards."
+
+            
+        }
+    ],
+    "cartegroy4":[
+        {
+            "description":"The Restored Governor's Mansion",
+            "images":"images/img30.jpg",
+            "description1":"The restoration of the Governor's Mansion is a meticulous project aimed at preserving its historical integrity while updating its facilities to meet modern standards of comfort and functionality."
+
+           
+        }
+    ]
+    
+ 
+ 
+}
