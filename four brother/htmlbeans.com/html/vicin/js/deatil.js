@@ -67,7 +67,7 @@ fetch("json/cartegroyshop.json")
 			  oldData.push(objectCart);
 			  localStorage.setItem('cartData',JSON.stringify(oldData));
 			  alert("product add into cart ");
-			  location.assign("shop-detail.html?proId="+getProId);
+			  location.assign("cart.html");
 			  
 					
 
@@ -80,8 +80,14 @@ fetch("json/cartegroyshop.json")
 //  cart table
 let cartproducts = JSON.parse(localStorage.getItem('cartData'));
 let productsRows =''
+let subTotal = 0;
 for(let productKeys of cartproducts){
-	// let qtySring = splice()
+	// let qtySring = productKeys.productPrice.charAt(0);
+	let ovalue = Number(productKeys.productPrice.substring(1));
+	subTotal +=productKeys.productQuantity*ovalue; 
+// 	console.log(ovalue);
+
+// console.log(qtySring);
 productsRows +=`<div class="row border pad">
 					<div class="col-xs-12 col-sm-3">
 						<div class="img-holder"><img src="${productKeys.productImage}" alt="image description" class="img-responsive"></div>
@@ -104,7 +110,7 @@ productsRows +=`<div class="row border pad">
 						</form>
 					</div>
 					<div class="col-xs-12 col-sm-1">
-						<strong class="high-light">£ 360.00</strong>
+						<strong class="high-light">£${productKeys.productQuantity*ovalue} </strong>
 					</div>
 					<div class="col-xs-12 col-sm-1 text-right">
 						<a href="#" class="ti-close"></a>
@@ -112,5 +118,10 @@ productsRows +=`<div class="row border pad">
 					
 				</div>`
 }
-$("#cartRows").html(productsRows)
-
+$("#cartRows").html(productsRows) 
+let count = cartproducts.length;
+$('#cartCount').html(count)
+$('.total').html(parseFloat(subTotal));
+$("#checkOut").click(function(){
+	alert('')
+})
